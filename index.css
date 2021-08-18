@@ -80,8 +80,8 @@ button.submit {
   }
   button.submit {
     padding: 10px 0;
-    font-size: 22px41px 0;
+    /* font-size: 22px 0; */
     font-size: 21px;
-    color: #fff;
+    color: #000;
   }
 }
