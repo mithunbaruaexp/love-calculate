@@ -1,4 +1,7 @@
 body {
+  background-image: url("https://scontent.fdac31-1.fna.fbcdn.net/v/t1.6435-9/92627135_1187931578228524_8374080827172061184_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=174925&_nc_ohc=oa2CknCi40MAX_PamS6&_nc_ht=scontent.fdac31-1.fna&oh=e1d127f6973114185bba7a8f3843ea8d&oe=6141CEC3");
+  background-size: cover;
+  background-position: bottom;
   margin: 0;
   padding: 0;
   background-color: #fff;
@@ -11,29 +14,29 @@ body {
   align-items: center;
 }
 .container {
-  box-shadow: 0 0 10px #007acc;
-  border: 5px solid #5eace0;
+  box-shadow: 0 0 10px yellowgreen;
+  border: 5px solid white;
   height: 50%;
   width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: yellow;
+  /* background: yellow; */
 }
 h2 {
-  color: #007acc;
+  color: yellow;
   font-size: 30px;
 }
 h1 {
   margin: 5px 0;
-  color: #007acc;
+  color: yellow;
   font-size: 40px;
 }
 #loves,
 #yourName,
 #crushName {
   font-size: 35px;
-  color: red;
+  color: white;
   font-weight: bold;
 }
 input.x {
@@ -57,8 +60,8 @@ button.submit {
   border-radius: 42;
   border: 2px solid #007acc;
   border-radius: 26px;
-  background: #8bcbf7;
-  color: gray;
+  background: yellow;
+  color: rgb(26, 21, 21);
 }
 
 @media only screen and (max-width: 600px) {
